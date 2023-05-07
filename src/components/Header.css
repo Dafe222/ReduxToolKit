@@ -1,0 +1,31 @@
+.header-nav {
+  position: sticky;
+  box-shadow: 0px 10px 20px #ccc;
+  margin-bottom: 10px;
+}
+.header-ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.header-h2 {
+  font-family: monospace;
+  font-size: 20px;
+} 
+
+#out{
+  font-weight: 450;
+  border-radius: 5px;
+} 
+
+#out:hover{
+  font-weight: bold;
+  border-radius: 5px;
+  background: rgb(108, 9, 130);
+ 
+  color: rgb(242, 241, 245);
+} 
+
+#out:active{
+  box-shadow: 7px 4px 2px rgb(3, 43, 123);
+}
